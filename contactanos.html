@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="contenedor">
+      <header>
+        <div class="row">
+          <img src="img/logo.png" alt="Logo de la Empresa" class="logo" />
+          <p>ALENTI INMUEBLES</p>
+        </div>
+        <nav class="links">
+          <div class="row">
+            <a href="index.html"><p>Inicio</p></a>
+            <a href="inmuebles.html"><p>Inmuebles</p></a>
+            <a href="contactanos.html"><p>Contáctanos</p></a>
+          </div>
+        </nav>
+      </header>
+
+      <div class="contacto">
+        <div class="contactoTexto">
+          <h2>
+            Contáctanos para saber mas <br />
+            sobre nuestra empresa
+          </h2>
+          <p class="contactoP">
+            Alenti <br />
+            Email: consultas@alentinmuebles.com
+          </p>
+          <p class="contactoP">
+            Telefono: (+54) 11 7722-5439 <br />
+            (+54) 11 8523-4421
+          </p>
+        </div>
+
+        <form class="formContacto" action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="telefono">Telefono:</label>
+          <input type="text" id="telefono" name="telefono" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <label for="experiencia">Experiencia en la página:</label>
+          <select id="experiencia" name="experiencia" required>
+            <option value="">-Seleccione-</option>
+            <option value="Excelente">Excelente</option>
+            <option value="Buena">Buena</option>
+            <option value="Regular">Regular</option>
+            <option value="Mala">Mala</option>
+          </select>
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </div>
+    <div class="googleMap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.49048331923!2d-58.38678951072704!3d-34.61704348844327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaba6ac89b35%3A0x1a2dc24cbca665a7!2sUADE%20-%20Universidad%20Argentina%20de%20la%20Empresa!5e0!3m2!1ses-419!2sar!4v1713564561780!5m2!1ses-419!2sar"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <footer class="row">
+      <div><p>© 2024 ALENTI</p></div>
+      <div class="column">
+      <div>
+        <p>Redes Sociales</p>
+      </div>
+      <div>
+        <a href="#"><img src="./img/logo-face.svg" alt="Icono Facebook" /></a>
+        <a href="https://www.instagram.com/alenti.inmuebles/"><img src="./img/logo-ig.svg" alt="Icono Instagram" /></a>
+        <a href="#"><img src="./img/logo-whatsapp.svg" alt="Icono Whatsapp" /></a>
+      </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,349 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: #383b43;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eeeeee;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  margin: auto;
+  padding-right: 12.3rem;
+}
+
+.links a {
+  padding-right: 1rem;
+}
+
+header {
+  display: flex;
+  height: 70px;
+  background-color: #383b43;
+  padding: 5px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+header p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.logo {
+  max-width: 100%;
+  height: 5rem;
+  padding: 0;
+}
+
+#contenedor {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  background-image: url(./img/index.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+main form {
+  display: flex;
+  margin-bottom: 25rem;
+}
+
+.containerItemSearch input {
+  border: none;
+  background: hsl(0 0% 93%);
+  padding: 0.75rem 1rem;
+  width: 40rem;
+  height: 2rem;
+}
+
+.containerItemSearch select {
+  border: none;
+  background: hsl(0 0% 93%);
+  width: 6rem;
+  height: 100%;
+  height: 3.5rem;
+  text-align: center;
+}
+
+.buscadorButtom {
+  background-color: #383b43;
+  border: none;
+
+  padding: 0.5rem, 0;
+}
+
+.containerItemSearch button {
+  height: 3.5rem;
+  width: 6rem;
+  color: white;
+}
+.containerItemSearch {
+  border-right: #383b43 solid 1px;
+}
+
+.abajo {
+  width: 100%;
+  height: 750px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.containerCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#centro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+#centro h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: #383b43;
+}
+
+#centro h3 {
+  font-size: 1.5rem;
+  padding-top: 2.5rem;
+  color: #383b43;
+}
+
+.textoCaptativo {
+  padding: 0.5rem;
+}
+.textoCaptativo p {
+  font-size: 1.25rem;
+}
+
+.card {
+  margin: 5rem 0;
+  width: 20%;
+  border-radius: 1%;
+  border-color: gray;
+  box-sizing: border-box;
+  box-shadow: 0 0.5rem 0.75rem 0.5rem rgba(90, 90, 90, 0.15);
+}
+
+.cardImg {
+  width: 350px;
+  height: 250px;
+}
+
+.cardTop {
+  border-bottom: 2px solid;
+  border-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.cardIcons {
+  border-top: 2px solid;
+  border-color: gray;
+  display: flex;
+  justify-content: center;
+
+  height: 4.2rem;
+  width: 100%;
+  flex-direction: column;
+}
+
+.cardIcons2 {
+  display: flex;
+}
+
+.cardIconsP {
+  display: flex;
+
+  text-align: center;
+}
+
+.cardIcons img {
+  height: 2.1rem;
+}
+
+.cardIcons p {
+  width: 100%;
+}
+
+.cardNombre {
+  color: gray;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cardInfo {
+  color: rgb(149, 149, 149);
+  font-size: 15px;
+}
+
+.cardTop img {
+  width: 100%;
+}
+.cardBottom {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2rem;
+  align-items: center;
+}
+
+.cardBottom button {
+  background-color: #383b43;
+  border: none;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+}
+
+.cardBottom button p {
+  color: white;
+  width: 6rem;
+  padding: 0.8rem;
+}
+
+footer {
+  display: flex;
+  height: 70px;
+  background-color: rgb(22, 22, 22);
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  position: static;
+  left: 0px;
+  bottom: 0px;
+}
+
+footer p {
+  color: white;
+}
+footer img {
+  color: white;
+  background: white;
+  border-radius: 20%;
+}
+
+footer a{
+  padding: 0 0.3rem;
+}
+
+.contacto {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+
+.contacto h2 {
+  font-size: 2.2rem;
+  color: #383b43;
+  padding: 1.2rem 0;
+}
+
+.contactoTexto {
+  margin: auto;
+  margin-right: 0;
+  text-align: end;
+  padding-right: 3rem;
+  width: 50%;
+}
+
+.contactoP {
+  color: #383b43;
+  font-size: 1.2rem;
+}
+
+.formContacto {
+  width: 50%;
+  margin: 0 auto;
+  margin-left: 0;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.formContacto label {
+  display: block;
+  margin-bottom: 5px;
+}
+.formContacto input,
+textarea {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.formContacto input[type="submit"] {
+  background-color: #383b43;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.formContacto input[type="submit"]:hover {
+  background-color: #383b43;
+}
+
+.formContacto select {
+  width: 20%;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.googleMap {
+  display: flex;
+  padding: 3rem;
+}
+
+.googleMap iframe {
+  margin: auto;
+  width: 100%;
+}
