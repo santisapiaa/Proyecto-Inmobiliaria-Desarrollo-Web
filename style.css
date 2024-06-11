@@ -131,6 +131,7 @@ main form {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #centro {
@@ -159,9 +160,14 @@ main form {
   font-size: 1.25rem;
 }
 
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
 .card {
   margin: 5rem 0;
-  width: 20%;
+  width: 21%;
   border-radius: 1%;
   border-color: gray;
   box-sizing: border-box;
@@ -185,7 +191,6 @@ main form {
   border-color: gray;
   display: flex;
   justify-content: center;
-
   height: 4.2rem;
   width: 100%;
   flex-direction: column;
@@ -237,12 +242,44 @@ main form {
   border: none;
   border-radius: 0.25rem;
   margin-top: 1rem;
+  border: 1px solid transparent;
 }
 
 .cardBottom button p {
   color: white;
   width: 6rem;
   padding: 0.8rem;
+}
+
+/* Notebook */
+@media (max-width: 1366px) {
+  .card {
+    width: 26%;
+  }
+
+  .cardImg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .cardIcons {
+    height: 2.5rem;
+    padding: 0.9rem 0;
+  }
+
+  .cardIcons2 {
+    display: flex;
+  }
+
+  .cardIconsP {
+    display: flex;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .cardBottom {
+    margin: 1.5rem;
+  }
 }
 
 footer {
@@ -267,7 +304,7 @@ footer img {
   border-radius: 20%;
 }
 
-footer a{
+footer a {
   padding: 0 0.3rem;
 }
 
